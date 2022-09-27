@@ -1,6 +1,6 @@
 Package: com.linusyang.localeutf8
 Version: 1.0-1
-Architecture: iphoneos-arm
+Architecture: iphoneos-arm64
 Maintainer: BigBoss <bigboss@thebigboss.org>
 Installed-Size: 186
 Depends: profile.d
@@ -20,7 +20,7 @@ Name: Locale Profiles in UTF-8
 
 Package: gettext-localizations
 Version: 2020.10.07
-Architecture: iphoneos-arm
+Architecture: iphoneos-arm64
 Maintainer: Hayden Seay <me@diatr.us>
 Installed-Size: 6256
 Depends: libintl8 (>= 0.20.0)
@@ -38,7 +38,7 @@ Description: Locale files necessary for command line tool translation.
 
 Package: ws.hbang.common
 Version: 1.14
-Architecture: iphoneos-arm
+Architecture: iphoneos-arm64
 Maintainer: BigBoss <bigboss@thebigboss.org>
 Installed-Size: 1430
 Depends: preferenceloader, mobilesubstrate, com.rpetrich.rocketbootstrap, firmware (>= 13.0) | jp.ashikase.techsupport
@@ -60,7 +60,7 @@ Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: ws.hbang.newterm2
 Version: 2.5
-Architecture: iphoneos-arm
+Architecture: iphoneos-arm64
 Maintainer: HASHBANG Productions <support@hbang.ws>
 Installed-Size: 6668
 Depends: firmware (>= 10.0), firmware (>= 12.2) | org.swift.libswift, ws.hbang.common (>= 1.16), bash, coreutils, ncurses, system-cmds, gettext-localizations | com.linusyang.localeutf8
