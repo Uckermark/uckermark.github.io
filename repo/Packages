@@ -1,7 +1,67 @@
+Package: com.linusyang.localeutf8
+Version: 1.0-1
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 186
+Depends: profile.d
+Filename: ./Files/localeutf8_1.0-1.deb
+Size: 5448
+MD5sum: 44518f7af981fa092bc20a24976a0c7f
+SHA1: 45e005d644f4eff178e6eed37a9c1f76c35ac941
+SHA256: 6339ffcaf3e44f4c1e3821405032cfb961e0952940f8a1b76a357a9dbecdf548
+Section: System
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=localeutf8Dp
+Description: UTF-8 locale files for en_US and zh_CN
+Tag: purpose::console, role::hacker
+Author: Linus Yang <laokongzi@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=localeutf8Dp
+Dev: laokongzi
+Name: Locale Profiles in UTF-8
+
+Package: gettext-localizations
+Version: 2020.10.07
+Architecture: iphoneos-arm
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 6256
+Depends: libintl8 (>= 0.20.0)
+Conflicts: com.linusyang.localeutf8
+Replaces: com.linusyang.localeutf8
+Provides: com.linusyang.localeutf8 (= 99.9)
+Filename: ./Files/gettext-localizations_2020.10.07_iphoneos-arm.deb
+Size: 227392
+MD5sum: 363d6e36d0103b92becf96d8b8dd6d70
+SHA1: 4931cfeef68b7b925b121bd84c76683308613dc4
+SHA256: e0367deb4dafbebfb9c73306c0f7f0e936105e47cde1ec5f35d0cc0734020db7
+Section: Localizations
+Priority: important
+Description: Locale files necessary for command line tool translation.
+
+Package: ws.hbang.common
+Version: 1.14
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 1430
+Depends: preferenceloader, mobilesubstrate, com.rpetrich.rocketbootstrap, firmware (>= 13.0) | jp.ashikase.techsupport
+Filename: ./Files/hashbangcommon_1.14.deb
+Size: 177316
+MD5sum: 253c7e46e67344ccd669d28c1c832c63
+SHA1: fc2a491a61ba9160bec39fc11d0e8826c4ebc71b
+SHA256: be57913670d797137c7c8ef980cc1bfe9bbd2b8b02d3598d63215d83fc42014b
+Section: Development
+Priority: optional
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=hashbangcommonDp
+Description: Support library for tweaks
+Tag: purpose::extension, role::developer, compatible::ios7, compatible::ios8, compatible::ios9, compatible::ios10, compatible::ios11, compatible::ios12, compatible::ios13
+Author: HASHBANG Productions <support@hbang.ws>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=hashbangcommonDp
+Dev: hbang
+Name: Cephei
+Sponsor: thebigboss.org <http://thebigboss.org>
+
 Package: ws.hbang.newterm2
 Version: 2.5
-Architecture: iphoneos-arm64
-Maintainer: HASHBANG Productions
+Architecture: iphoneos-arm
+Maintainer: HASHBANG Productions <support@hbang.ws>
 Installed-Size: 6668
 Depends: firmware (>= 10.0), firmware (>= 12.2) | org.swift.libswift, ws.hbang.common (>= 1.16), bash, coreutils, ncurses, system-cmds, gettext-localizations | com.linusyang.localeutf8
 Conflicts: ws.hbang.newterm, com.lint.ntarrows
