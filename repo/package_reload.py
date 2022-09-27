@@ -5,7 +5,7 @@ os.system('dpkg-scanpackages ./Files > Packages')
 with open("Packages", 'r') as f:
 	packages =  f.read()
 packages = packages.replace("iphoneos-arm", "iphoneos-arm64")
-packages = packages.replace("./", "")
+packages = packages.replace("./", "https://uckermark.github.io/repo/")
 # print(var)
 os.system('rm Packages')
 os.system('touch Packages')
