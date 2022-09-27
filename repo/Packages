@@ -9,7 +9,7 @@ Conflicts: com.ex.libsubstitute, org.coolstar.tweakinject, science.xnu.substitut
 Breaks: com.saurik.substrate.safemode (<<0.9.6004)
 Replaces: com.ex.libsubstitute, org.coolstar.tweakinject, mobilesubstrate
 Provides: com.ex.libsubstitute, mobilesubstrate (= 0.9.7033+dummy)
-Filename: ./debs/com.ex.substitute_2.3.0_iphoneos-arm6464.deb
+Filename: ./debs/com.ex.substitute_2.3.0_iphoneos-arm64.deb
 Size: 7452624
 MD5sum: 74dcada0df4b9fd20e69bdb92f52444c
 SHA1: 593396342e91fbbf8c841f61316d7ee9316e4ecd
@@ -69,7 +69,7 @@ Installed-Size: 144
 Depends: mobilesubstrate (>= 0.9.3367+38)
 Conflicts: safe-mode-fixer-ios7
 Replaces: safe-mode-fixer-ios7
-Filename: ./debs/com.saurik.substrate.safemode_0.9.6005_iphoneos-arm6464.deb
+Filename: ./debs/com.saurik.substrate.safemode_0.9.6005_iphoneos-arm64.deb
 Size: 22736
 MD5sum: 73e56c9f8209fc56c8852bfcfd5b23d7
 SHA1: 8bb7866945dac32ad68648ebf38ca343fa715b7d
@@ -108,7 +108,7 @@ Depends: com.saurik.substrate.safemode
 Conflicts: me.devbug.msreloadfix, com.r3pwn.startsubstrate, com.ragemasta.bootstrap, com.saurik.substrate (<< 1:0)
 Breaks: uikittools (<< 1.1.1), com.mywi4 (<= 5.03.2), com.phoenix.pandoracontrols (<= 1.1.0-1), com.intelliborn.intelliscreenx (<= 1.0.110), com.evad3rs.evasi0n7 (<< 0.2)
 Replaces: cycript (<= 0.9.594), com.saurik.substrate
-Filename: ./debs/mobilesubstrate_0.9.7113_iphoneos-arm6464.deb
+Filename: ./debs/mobilesubstrate_0.9.7113_iphoneos-arm64.deb
 Size: 2535200
 MD5sum: ae3a8e6426bfba52a463e4f759688f00
 SHA1: ec9ef98e88dd1452a127fc7d95f61e39a80d8288
