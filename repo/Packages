@@ -1,13 +1,22 @@
-Package: com.hbang.newterm2
-Version: 1.0
-Section: Tweaks
-Maintainer: Uckermark
-Provides: com.hbang.newterm2
+Package: ws.hbang.newterm2
+Version: 2.5
 Architecture: iphoneos-arm64
-Filename: Files/newterm.deb
-Size: 6040
-Installed-Size: 40
+Maintainer: HASHBANG Productions
+Installed-Size: 6668
+Depends: firmware (>= 10.0), firmware (>= 12.2) | org.swift.libswift, ws.hbang.common (>= 1.16), bash, coreutils, ncurses, system-cmds, gettext-localizations | com.linusyang.localeutf8
+Conflicts: ws.hbang.newterm, com.lint.ntarrows
+Replaces: ws.hbang.newterm, com.lint.ntarrows
+Filename: ./Files/newterm.deb
+Size: 2017880
 MD5sum: 2480551015065c4b64abf022443377c2
-Description: check iOS 15 rootless compatibility
-Name: test
-Author: Uckermark
+SHA1: 91e758cb000d05824398be3e6951a180355a6550
+SHA256: c7e7cc736b52a8f705d165c7536fb7e71cda825fed2f6cbccfebbe2f8f49d01f
+Section: Terminal Support
+Description: A powerful terminal app for iOS
+Tag: compatible_min::ios10.0
+Author: HASHBANG Productions <support@hbang.ws>
+Depiction: https://chariz.com/get/newterm
+Icon: https://chariz.com/cdn/icon/newterm/icon@3x.png
+Name: NewTerm 2
+Support: https://hashbang.productions/support/
+
