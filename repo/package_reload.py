@@ -1,4 +1,4 @@
-import o
+import os
 os.system('dpkg-scanpackages ./debs > Packages')
 
 with open("Packages", 'r') as f:
