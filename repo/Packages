@@ -90,7 +90,7 @@ Depends: libintl8 (>= 0.20.0)
 Conflicts: com.linusyang.localeutf8
 Replaces: com.linusyang.localeutf8
 Provides: com.linusyang.localeutf8 (= 99.9)
-Filename: ./debs/gettext-localizations_2020.10.07_iphoneos-arm64.deb
+Filename: ./debs/gettext-localizations_2020.10.07_iphoneos-arm.deb
 Size: 227392
 MD5sum: 363d6e36d0103b92becf96d8b8dd6d70
 SHA1: 4931cfeef68b7b925b121bd84c76683308613dc4
@@ -128,7 +128,7 @@ Depends: firmware (>= 11.0), cy+cpu.arm64, org.coolstar.safemode
 Conflicts: com.ex.libsubstitute, org.coolstar.tweakinject, mobilesubstrate, libhooker-strap, com.saurik.substrate.safemode
 Replaces: com.ex.libsubstitute, org.coolstar.tweakinject, mobilesubstrate, libhooker-strap, com.saurik.substrate.safemode
 Provides: com.ex.libsubstitute (= 2.0), org.coolstar.tweakinject (= 1.5.0), mobilesubstrate (= 99.4), libhooker-strap (= 1.1), com.saurik.substrate.safemode (= 2.0)
-Filename: ./debs/org.coolstar.libhooker_1.6.9_iphoneos-arm64.deb
+Filename: ./debs/org.coolstar.libhooker_1.6.9_iphoneos-arm.deb
 Size: 56032
 MD5sum: baf916c12b2cff38525884bf93aac39a
 SHA1: f301e048bef8a0c32ca15da85c556571eefca27d
@@ -146,7 +146,7 @@ Architecture: iphoneos-arm64
 Maintainer: CoolStar <coolstarorganization@gmail.com>
 Depends: firmware (>= 11.0), cy+cpu.arm64
 Replaces: org.coolstar.libhooker (<<1.2.5)
-Filename: ./debs/org.coolstar.safemode_1.1.4_iphoneos-arm64.deb
+Filename: ./debs/org.coolstar.safemode_1.1.4_iphoneos-arm.deb
 Size: 558304
 MD5sum: 43526b865445d84251d78f99a6325ab5
 SHA1: fd03023d7559d36435f4d64bad92504cc9d46297
