@@ -75,10 +75,10 @@ Architecture: iphoneos-arm64
 Maintainer: Hayden Seay <me@diatr.us>
 Installed-Size: 1464
 Filename: ./debs/unzip_6.0-25_iphoneos-arm64.deb
-Size: 109860
-MD5sum: 8fd48258bc687656c88f8676b9937e6f
-SHA1: 55b6e775c34ca65f52e6532f2090fc6bdf0f062e
-SHA256: 5547d37b7446a856e1162c3986abd0a2ac9fe336eabfd78d1bb2362674178e43
+Size: 109480
+MD5sum: dfe9411d8e8be5e309198a201020a41c
+SHA1: 9ff15142b629e48ee23098f9958afb93ba4d81aa
+SHA256: 1b5fa815e6ee274f2339c4e33d90e2cf71555b5fccb8a20e5e6d05a23615af4d
 Section: Archiving
 Priority: important
 Description: de-compesses files in zip format
