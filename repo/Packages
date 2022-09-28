@@ -1,118 +1,16 @@
-Package: com.ex.substitute
-Version: 2.3.0
-Architecture: iphoneos-arm64
-Maintainer: Sam Bingner
-Installed-Size: 27572
-Pre-Depends: coreutils-bin, dpkg (>=1.17.11)
-Depends: firmware (>= 8.0), cy+cpu.arm64, com.saurik.substrate.safemode (>=0.9.6005), uikittools (>=1.1.13-4), darwintools
-Conflicts: com.ex.libsubstitute, org.coolstar.tweakinject, science.xnu.substitute, mobilesubstrate, ws.hbang.stopcrashingpls (<<1.0.2)
-Breaks: com.saurik.substrate.safemode (<<0.9.6004)
-Replaces: com.ex.libsubstitute, org.coolstar.tweakinject, mobilesubstrate
-Provides: com.ex.libsubstitute, mobilesubstrate (= 0.9.7033+dummy)
-Filename: ./debs/com.ex.substitute_2.3.0_iphoneos-arm64.deb
-Size: 7452624
-MD5sum: 74dcada0df4b9fd20e69bdb92f52444c
-SHA1: 593396342e91fbbf8c841f61316d7ee9316e4ecd
-SHA256: 62244a11a4d46ae94708e8508d1a2b37358298065957b88dd826f0a91911a484
-Section: System
-Priority: optional
-Description: Substrate substitute for code substitution
-Author: comex <comexk+da@gmail.com>
-Name: Substitute
-
-Package: com.rpetrich.rocketbootstrap
-Version: 1.0.10~beta1
-Architecture: iphoneos-arm64
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 596
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 3.0)
-Filename: ./debs/com.rpetrich.rocketbootstrap_1.0.10_beta1.deb
-Size: 38344
-MD5sum: b52417e29631c59cdb267379e71e2a69
-SHA1: 5839fce38b27e624ab5629d50fd543f30b473615
-SHA256: d06e18eefbfcb40f3e3b215bfbccaf34091fb30b2ccb1e4f6c519aa91d2b7248
-Section: Tweaks
-Homepage: https://www.rpetrich.com/cydia/rocketbootstrap/beta/
-Description: Support library allowing tweaks to communicate with sandboxed processes
-Tag: purpose::extension, role::developer
-Author: Ryan Petrich <rpetrich+rocketbootstrap@gmail.com>
-Depiction: https://www.rpetrich.com/cydia/rocketbootstrap/beta/
-Dev: rpetrich
-Name: RocketBootstrap
-Sponsor: thebigboss.org <http://thebigboss.org>
-
-Package: com.saurik.substrate.safemode
-Version: 0.9.6005
-Architecture: iphoneos-arm64
-Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
-Installed-Size: 144
-Depends: mobilesubstrate (>= 0.9.3367+38)
-Conflicts: safe-mode-fixer-ios7
-Replaces: safe-mode-fixer-ios7
-Filename: ./debs/com.saurik.substrate.safemode_0.9.6005_iphoneos-arm64.deb
-Size: 22736
-MD5sum: 73e56c9f8209fc56c8852bfcfd5b23d7
-SHA1: 8bb7866945dac32ad68648ebf38ca343fa715b7d
-SHA256: de3f3c5e0bfde32d61e14daaca7a7899a73215f94753a77fca1aa4203b018c87
-Section: Tweaks
-Priority: optional
-Description: safe mode safety extension (safe)
-Author: Jay Freeman (saurik) <saurik@saurik.com>
-Depiction: http://cydia.saurik.com/info/com.saurik.substrate.safemode/
-Name: Substrate Safe Mode
-
-Package: gettext-localizations
-Version: 2020.10.07
-Architecture: iphoneos-arm64
-Maintainer: Hayden Seay <me@diatr.us>
-Installed-Size: 6256
-Depends: libintl8 (>= 0.20.0)
-Conflicts: com.linusyang.localeutf8
-Replaces: com.linusyang.localeutf8
-Provides: com.linusyang.localeutf8 (= 99.9)
-Filename: ./debs/gettext-localizations_2020.10.07_iphoneos-arm.deb
-Size: 227392
-MD5sum: 363d6e36d0103b92becf96d8b8dd6d70
-SHA1: 4931cfeef68b7b925b121bd84c76683308613dc4
-SHA256: e0367deb4dafbebfb9c73306c0f7f0e936105e47cde1ec5f35d0cc0734020db7
-Section: Localizations
-Priority: important
-Description: Locale files necessary for command line tool translation.
-
-Package: mobilesubstrate
-Version: 0.9.7113
-Architecture: iphoneos-arm64
-Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
-Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: com.saurik.substrate.safemode
-Conflicts: me.devbug.msreloadfix, com.r3pwn.startsubstrate, com.ragemasta.bootstrap, com.saurik.substrate (<< 1:0)
-Breaks: uikittools (<< 1.1.1), com.mywi4 (<= 5.03.2), com.phoenix.pandoracontrols (<= 1.1.0-1), com.intelliborn.intelliscreenx (<= 1.0.110), com.evad3rs.evasi0n7 (<< 0.2)
-Replaces: cycript (<= 0.9.594), com.saurik.substrate
-Filename: ./debs/mobilesubstrate_0.9.7113_iphoneos-arm64.deb
-Size: 2535200
-MD5sum: ae3a8e6426bfba52a463e4f759688f00
-SHA1: ec9ef98e88dd1452a127fc7d95f61e39a80d8288
-SHA256: e7ff98de6bc273dd17ad6ca4dc71cea23d8632d8f59478b2d5e8bf1ac13aa673
-Section: System
-Priority: optional
-Description: powerful code insertion platform
-Author: Jay Freeman (saurik) <saurik@saurik.com>
-Depiction: http://cydia.saurik.com/info/mobilesubstrate/
-Name: Cydia Substrate
-
 Package: org.coolstar.libhooker
-Version: 1.6.9
+Version: 1.6.9b2
 Architecture: iphoneos-arm64
 Maintainer: CoolStar <coolstarorganization@gmail.com>
 Depends: firmware (>= 11.0), cy+cpu.arm64, org.coolstar.safemode
 Conflicts: com.ex.libsubstitute, org.coolstar.tweakinject, mobilesubstrate, libhooker-strap, com.saurik.substrate.safemode
 Replaces: com.ex.libsubstitute, org.coolstar.tweakinject, mobilesubstrate, libhooker-strap, com.saurik.substrate.safemode
 Provides: com.ex.libsubstitute (= 2.0), org.coolstar.tweakinject (= 1.5.0), mobilesubstrate (= 99.4), libhooker-strap (= 1.1), com.saurik.substrate.safemode (= 2.0)
-Filename: ./debs/libhooker.deb
-Size: 1560
-MD5sum: b5667335d22d22d80707cb37ce1c4130
-SHA1: f0e7f44b3100b1e9855d518348e39df102721af2
-SHA256: 56306c3119a96428f8e48299dfceaff0d76cf9a353bc7ba4fc2e0af519e78609
+Filename: ./debs/org.coolstar.libhooker_1.6.9b2_iphoneos-arm64.deb
+Size: 55668
+MD5sum: 00acaab05d71cd3a0dcfa9e434aaf5ff
+SHA1: d616915981b8261b9e9c262bb85265f16c5be08a
+SHA256: 6210feace0544acf28ada3ae71b01d013938e01bb41022ce52f7f365a1a272c1
 Section: System
 Description: General Purpose Injection and Hooking library for 64-bit devices
 Author: CoolStar <coolstarorganization@gmail.com>
@@ -120,25 +18,19 @@ Icon: https://repo.theodyssey.dev/depictions/icons/libhooker.png
 Name: libhooker
 Sileodepiction: https://repo.theodyssey.dev/depictions/json/libhooker.json
 
-Package: ws.hbang.common
-Version: 1.14
+Package: org.coolstar.safemode
+Version: 1.1.4
 Architecture: iphoneos-arm64
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 1430
-Depends: preferenceloader, mobilesubstrate, com.rpetrich.rocketbootstrap, firmware (>= 13.0) | jp.ashikase.techsupport
-Filename: ./debs/hbcommon.deb
-Size: 177184
-MD5sum: 11a910a6ffd86cd323d141cd92a3e18b
-SHA1: a2988347b2f03f8378ff259587390b150c8f9ffa
-SHA256: 077ccc196790719f84a778e3e4ef0bca56428bea10706fb03663707eefd78945
-Section: Development
-Priority: optional
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=hashbangcommonDp
-Description: Support library for tweaks
-Tag: purpose::extension, role::developer, compatible::ios7, compatible::ios8, compatible::ios9, compatible::ios10, compatible::ios11, compatible::ios12, compatible::ios13
-Author: HASHBANG Productions <support@hbang.ws>
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=hashbangcommonDp
-Dev: hbang
-Name: Cephei
-Sponsor: thebigboss.org <http://thebigboss.org>
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Depends: firmware (>= 11.0), cy+cpu.arm64
+Replaces: org.coolstar.libhooker (<<1.2.5)
+Filename: ./debs/org.coolstar.safemode_1.1.4_iphoneos-arm64.deb
+Size: 558574
+MD5sum: e77419bd0668a32bacaf584df2b8ef78
+SHA1: 9fb529ddbf99dc56b32df716af712b388f16a45f
+SHA256: 39b5a61e8e9e67900e120d2b4877be3fcf388ccb150d0b393a72a19fef672cf9
+Section: System
+Description: Safe Mode app for libhooker
+Author: CoolStar <coolstarorganization@gmail.com>
+Name: Safe Mode (libhooker)
 

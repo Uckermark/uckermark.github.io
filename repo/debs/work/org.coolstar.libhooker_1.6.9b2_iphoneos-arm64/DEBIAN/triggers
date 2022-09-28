@@ -1,0 +1,4 @@
+interest /usr/lib/TweakInject
+interest /Library/TweakInject
+interest /Library/MobileSubstrate/DynamicLibraries
+

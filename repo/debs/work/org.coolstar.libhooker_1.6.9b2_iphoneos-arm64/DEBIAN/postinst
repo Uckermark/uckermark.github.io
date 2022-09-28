@@ -1,0 +1,39 @@
+#!/bin/sh
+
+finish() {
+	f="${1}"
+
+	# No control fd: bail out
+	[ -z "${f}" ] || [ -z "${SILEO}" ] && return
+
+	read -r fd ver <<-EOF
+			${SILEO}
+			EOF
+
+	# Sileo control fd version < 1: bail out
+	[ "${ver}" -ge 1 ] || return
+
+	echo "finish:${f}" >&"${fd}"
+}
+
+LEGACYPATH=/Library/MobileSubstrate/DynamicLibraries
+if [ -e ${LEGACYPATH} ] ; then
+	if [ ! -L ${LEGACYPATH} ]; then
+		echo "${LEGACYPATH} is broken. Fixing..."
+		mv ${LEGACYPATH}/* /usr/lib/TweakInject/ || true
+		rm -rf /Library/MobileSubstrate/DynamicLibraries
+		ln -s /usr/lib/TweakInject ${LEGACYPATH}
+	fi
+fi
+
+if [ -z "${SILEO}" ]; then uicache -p /Applications/SafeMode.app; fi
+
+touch /.mount_rw
+/etc/rc.d/libhooker > /dev/null
+
+# Known bad daemons in case the user doesn't reboot
+killall -9 proximitycontrold 2> /dev/null || true
+killall -9 TrustedPeersHelper 2> /dev/null || true
+
+finish restart
+exit 0
