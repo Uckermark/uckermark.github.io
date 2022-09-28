@@ -1,3 +1,20 @@
+Package: com.tigisoftware.filza
+Version: 3.9.6-4
+Architecture: iphoneos-arm64
+Maintainer: TIGI Software
+Installed-Size: 34232
+Depends: zip, unzip, gzip, unrar, p7zip
+Conflicts: com.tigisoftware.filza64bit
+Filename: ./debs/com.tigisoftware.filza_3.9.6-4_iphoneos-arm64.deb
+Size: 10793388
+MD5sum: 897d6b876fba9874bec2de478d64105c
+SHA1: fe2548f897c2d6097b918bac5e7ae6d1708b4fe5
+SHA256: d05ccac458fb8f7c2bc18413278f57d8bfcc5a2667c7f921852e18800256da72
+Section: Utilities
+Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 7+
+Author: TIGI Software
+Name: Filza File Manager
+
 Package: org.coolstar.libhooker
 Version: 1.6.9b2
 Architecture: iphoneos-arm64
