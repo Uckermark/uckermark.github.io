@@ -26,11 +26,11 @@ Architecture: iphoneos-arm64
 Maintainer: BigBoss <bigboss@thebigboss.org>
 Installed-Size: 186
 Depends: profile.d
-Filename: ./debs/localeutf8_1.0-1.deb
-Size: 5448
-MD5sum: 44518f7af981fa092bc20a24976a0c7f
-SHA1: 45e005d644f4eff178e6eed37a9c1f76c35ac941
-SHA256: 6339ffcaf3e44f4c1e3821405032cfb961e0952940f8a1b76a357a9dbecdf548
+Filename: ./debs/work.deb
+Size: 5956
+MD5sum: 03beafde6982e247ab0c0a35cc23c3bb
+SHA1: 06e9678ac735b06c68c6b7f54e5bb7a98fc913db
+SHA256: 6c689c1739ab3141c7eb9fd82522ffc0e61ab0c4b94c3462ab363d8f32226124
 Section: System
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=localeutf8Dp
 Description: UTF-8 locale files for en_US and zh_CN
