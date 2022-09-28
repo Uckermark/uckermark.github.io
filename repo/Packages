@@ -122,7 +122,7 @@ Name: Cydia Substrate
 
 Package: org.coolstar.libhooker
 Version: 1.6.9
-Architecture: iphoneos-arm6464
+Architecture: iphoneos-arm64
 Maintainer: CoolStar <coolstarorganization@gmail.com>
 Depends: firmware (>= 11.0), cy+cpu.arm64, org.coolstar.safemode
 Conflicts: com.ex.libsubstitute, org.coolstar.tweakinject, mobilesubstrate, libhooker-strap, com.saurik.substrate.safemode
