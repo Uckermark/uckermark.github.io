@@ -127,10 +127,10 @@ Maintainer: CoolStar <coolstarorganization@gmail.com>
 Depends: firmware (>= 11.0), cy+cpu.arm64
 Replaces: org.coolstar.libhooker (<<1.2.5)
 Filename: ./debs/work.deb
-Size: 558320
-MD5sum: 4656a5508490d9a47a2e9ee4273ad0bf
-SHA1: abe53d96f520b2c9d340d03da5c33bc6652982b2
-SHA256: ce625a036bf343e650076f9dc7c2539e05d48b34542f3a7550aa281e12ad9e39
+Size: 1378054
+MD5sum: 05eb00a65281323252542bae16a42d7c
+SHA1: 505b42e8196a52cda6a014bd5754a6a6581cc130
+SHA256: 14e9cf73d446f57e8d854722c8a90ffc2a844924fb71d7e631672d0c3985c8d4
 Section: System
 Description: Safe Mode app for libhooker
 Author: CoolStar <coolstarorganization@gmail.com>
