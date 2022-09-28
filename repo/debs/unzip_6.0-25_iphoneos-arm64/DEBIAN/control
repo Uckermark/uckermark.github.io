@@ -1,9 +1,0 @@
-Package: unzip
-Version: 6.0-25
-Architecture: iphoneos-arm64
-Maintainer: Hayden Seay <me@diatr.us>
-Section: Archiving
-Priority: important
-Description: de-compesses files in zip format
-Tag: purpose::console, role::hacker
-Installed-Size: 1464
