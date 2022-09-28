@@ -51,3 +51,36 @@ Description: Safe Mode app for libhooker
 Author: CoolStar <coolstarorganization@gmail.com>
 Name: Safe Mode (libhooker)
 
+Package: unrar
+Version: 6.1.4
+Architecture: iphoneos-arm64
+Maintainer: Procursus Team <support@procurs.us>
+Installed-Size: 396
+Filename: ./debs/unrar_6.1.4_iphoneos-arm64.deb
+Size: 133712
+MD5sum: f78158be6e3aef14a36aaebfc802a10c
+SHA1: faf782be19232859d2229449fd01d011959f27ce
+SHA256: 5b66d84ab3ad95f919a4dc487937d6d0f500c493387c3337996624ab4a2fdba3
+Section: Archiving
+Priority: optional
+Multi-Arch: foreign
+Homepage: http://www.rarlab.com/rar_add.htm
+Description: Unarchiver for .rar files (non-free version)
+ Unrar can extract files from .rar archives. If you want to create .rar
+ archives, install package rar.
+
+Package: unzip
+Version: 6.0-25
+Architecture: iphoneos-arm64
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 1464
+Filename: ./debs/unzip_6.0-25_iphoneos-arm64.deb
+Size: 109860
+MD5sum: 8fd48258bc687656c88f8676b9937e6f
+SHA1: 55b6e775c34ca65f52e6532f2090fc6bdf0f062e
+SHA256: 5547d37b7446a856e1162c3986abd0a2ac9fe336eabfd78d1bb2362674178e43
+Section: Archiving
+Priority: important
+Description: de-compesses files in zip format
+Tag: purpose::console, role::hacker
+
