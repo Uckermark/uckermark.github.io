@@ -20,26 +20,6 @@ Description: Substrate substitute for code substitution
 Author: comex <comexk+da@gmail.com>
 Name: Substitute
 
-Package: com.linusyang.localeutf8
-Version: 1.0-1
-Architecture: iphoneos-arm64
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 186
-Depends: profile.d
-Filename: ./debs/work.deb
-Size: 5956
-MD5sum: 03beafde6982e247ab0c0a35cc23c3bb
-SHA1: 06e9678ac735b06c68c6b7f54e5bb7a98fc913db
-SHA256: 6c689c1739ab3141c7eb9fd82522ffc0e61ab0c4b94c3462ab363d8f32226124
-Section: System
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=localeutf8Dp
-Description: UTF-8 locale files for en_US and zh_CN
-Tag: purpose::console, role::hacker
-Author: Linus Yang <laokongzi@gmail.com>
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=localeutf8Dp
-Dev: laokongzi
-Name: Locale Profiles in UTF-8
-
 Package: com.rpetrich.rocketbootstrap
 Version: 1.0.10~beta1
 Architecture: iphoneos-arm64
@@ -146,11 +126,11 @@ Architecture: iphoneos-arm64
 Maintainer: CoolStar <coolstarorganization@gmail.com>
 Depends: firmware (>= 11.0), cy+cpu.arm64
 Replaces: org.coolstar.libhooker (<<1.2.5)
-Filename: ./debs/org.coolstar.safemode_1.1.4_iphoneos-arm.deb
-Size: 558304
-MD5sum: 43526b865445d84251d78f99a6325ab5
-SHA1: fd03023d7559d36435f4d64bad92504cc9d46297
-SHA256: 44368da007c8b46bd7d69c48f0724b36d423758e807215e67f12f85a8ea4966e
+Filename: ./debs/work.deb
+Size: 558320
+MD5sum: db1b643651ddc3d74345d296dd243f5f
+SHA1: 60ae8838bd9fd7e3845d70f5637ff30995aaf758
+SHA256: 813431546fc3f3eef6d8f540bf78953f5f0e61466467ea58d87dfd9a79425d27
 Section: System
 Description: Safe Mode app for libhooker
 Author: CoolStar <coolstarorganization@gmail.com>
