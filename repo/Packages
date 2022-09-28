@@ -120,33 +120,17 @@ Icon: https://repo.theodyssey.dev/depictions/icons/libhooker.png
 Name: libhooker
 Sileodepiction: https://repo.theodyssey.dev/depictions/json/libhooker.json
 
-Package: org.coolstar.safemode
-Version: 1.1.4
-Architecture: iphoneos-arm64
-Maintainer: CoolStar <coolstarorganization@gmail.com>
-Depends: firmware (>= 11.0), cy+cpu.arm64
-Replaces: org.coolstar.libhooker (<<1.2.5)
-Filename: ./debs/work.deb
-Size: 1378054
-MD5sum: 05eb00a65281323252542bae16a42d7c
-SHA1: 505b42e8196a52cda6a014bd5754a6a6581cc130
-SHA256: 14e9cf73d446f57e8d854722c8a90ffc2a844924fb71d7e631672d0c3985c8d4
-Section: System
-Description: Safe Mode app for libhooker
-Author: CoolStar <coolstarorganization@gmail.com>
-Name: Safe Mode (libhooker)
-
 Package: ws.hbang.common
 Version: 1.14
 Architecture: iphoneos-arm64
 Maintainer: BigBoss <bigboss@thebigboss.org>
 Installed-Size: 1430
 Depends: preferenceloader, mobilesubstrate, com.rpetrich.rocketbootstrap, firmware (>= 13.0) | jp.ashikase.techsupport
-Filename: ./debs/hashbangcommon_1.14.deb
-Size: 177316
-MD5sum: 253c7e46e67344ccd669d28c1c832c63
-SHA1: fc2a491a61ba9160bec39fc11d0e8826c4ebc71b
-SHA256: be57913670d797137c7c8ef980cc1bfe9bbd2b8b02d3598d63215d83fc42014b
+Filename: ./debs/hbcommon.deb
+Size: 177184
+MD5sum: 11a910a6ffd86cd323d141cd92a3e18b
+SHA1: a2988347b2f03f8378ff259587390b150c8f9ffa
+SHA256: 077ccc196790719f84a778e3e4ef0bca56428bea10706fb03663707eefd78945
 Section: Development
 Priority: optional
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=hashbangcommonDp
@@ -157,26 +141,4 @@ Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=hashbangco
 Dev: hbang
 Name: Cephei
 Sponsor: thebigboss.org <http://thebigboss.org>
-
-Package: ws.hbang.newterm2
-Version: 2.5
-Architecture: iphoneos-arm64
-Maintainer: HASHBANG Productions <support@hbang.ws>
-Installed-Size: 6668
-Depends: firmware (>= 10.0), firmware (>= 12.2) | org.swift.libswift, ws.hbang.common (>= 1.16), bash, coreutils, ncurses, system-cmds, gettext-localizations | com.linusyang.localeutf8
-Conflicts: ws.hbang.newterm, com.lint.ntarrows
-Replaces: ws.hbang.newterm, com.lint.ntarrows
-Filename: ./debs/newterm.deb
-Size: 2017880
-MD5sum: 2480551015065c4b64abf022443377c2
-SHA1: 91e758cb000d05824398be3e6951a180355a6550
-SHA256: c7e7cc736b52a8f705d165c7536fb7e71cda825fed2f6cbccfebbe2f8f49d01f
-Section: Terminal Support
-Description: A powerful terminal app for iOS
-Tag: compatible_min::ios10.0
-Author: HASHBANG Productions <support@hbang.ws>
-Depiction: https://chariz.com/get/newterm
-Icon: https://chariz.com/cdn/icon/newterm/icon@3x.png
-Name: NewTerm 2
-Support: https://hashbang.productions/support/
 
