@@ -126,7 +126,7 @@ Architecture: iphoneos-arm64
 Maintainer: CoolStar <coolstarorganization@gmail.com>
 Depends: firmware (>= 11.0), cy+cpu.arm64
 Replaces: org.coolstar.libhooker (<<1.2.5)
-Filename: ./debs/work.deb
+Filename: ./debs/org.coolstar.safemode-arm64.deb
 Size: 558320
 MD5sum: db1b643651ddc3d74345d296dd243f5f
 SHA1: 60ae8838bd9fd7e3845d70f5637ff30995aaf758
