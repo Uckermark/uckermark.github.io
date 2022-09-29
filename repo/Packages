@@ -75,10 +75,10 @@ Architecture: iphoneos-arm64
 Maintainer: Procursus Team <support@procurs.us>
 Installed-Size: 396
 Filename: ./debs/unrar_6.1.4_iphoneos-arm64.deb
-Size: 133728
-MD5sum: 6b3412c782dff22365a82bb54bed82af
-SHA1: c9e5780282b367888a9bbb081a8cf30d70212569
-SHA256: 0f4e4a445257b48337380d1848961629283be4d87baeee0aaef6ad575c251cfb
+Size: 133716
+MD5sum: 11997a6346f7bcad19082c0e5677c940
+SHA1: 35ccc587dfaa18f40e2bfede5a87d781d89ac1f3
+SHA256: d6f7297e41201c043fc90d83c5f64f12dab2c152f908d616e7fe4d27f12d1026
 Section: Archiving
 Priority: optional
 Multi-Arch: foreign
