@@ -24,10 +24,10 @@ Conflicts: com.ex.libsubstitute, org.coolstar.tweakinject, mobilesubstrate, libh
 Replaces: com.ex.libsubstitute, org.coolstar.tweakinject, mobilesubstrate, libhooker-strap, com.saurik.substrate.safemode
 Provides: com.ex.libsubstitute (= 2.0), org.coolstar.tweakinject (= 1.5.0), mobilesubstrate (= 99.4), libhooker-strap (= 1.1), com.saurik.substrate.safemode (= 2.0)
 Filename: ./debs/org.coolstar.libhooker_1.6.9b2_iphoneos-arm64.deb
-Size: 55704
-MD5sum: ad6c20c1a16ad8ced158416ecbc16945
-SHA1: 79a56c6fc039911c930f7cb1752f45beced57200
-SHA256: 2a79f35b8ac6776f4127f423494c1ae16e83205289d72ba1c1e2ffd6cee3f4c5
+Size: 55948
+MD5sum: c6f6ab1369a554e8c725cfcb668f67aa
+SHA1: bfa458fe398464981a03aff133225ce224b6a900
+SHA256: ac2eb83aed2ab364293aec5a94db44928599114b7968e129578b8ebe9e050efa
 Section: System
 Description: General Purpose Injection and Hooking library for 64-bit devices
 Author: CoolStar <coolstarorganization@gmail.com>
