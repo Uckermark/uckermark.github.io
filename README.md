@@ -4,3 +4,6 @@ just for testing
 currently supported:
 - libhooker
 - safemode (libhooker)
+- unzip
+- unrar
+- filza (may not work yet)
