@@ -40,11 +40,11 @@ Version: 1.3
 Architecture: iphoneos-arm64
 Maintainer: CoolStar <coolstarorganization@gmail.com>
 Depends: org.coolstar.libhooker (>=1.4.0), firmware (>= 12.2) | org.swift.libswift (>= 5.0), firmware (>= 12.0)
-Filename: ./debs/org.coolstar.libhooker-configurator_1.3_iphoneos-arm64.deb
-Size: 268836
-MD5sum: 6838b2d37b211bff3f5d2fbe6d0e89f9
-SHA1: d76b83a17a9aa41263c15eb75f434dd87e258181
-SHA256: c1beac11156175cff11eb3fed7237dedfb21fc239273b433f76c38ee2e439852
+Filename: ./debs/libhooker-configurator64.deb
+Size: 268824
+MD5sum: 55b8932fc23b77cb50ac8c5c7a8e7b1e
+SHA1: f550763bae43595fe9f25d839a37ce20b79cf2e7
+SHA256: 8ce87736882711714dabbed0d916481eb1236251c03ab804d28037f787c973b3
 Section: Packaging
 Priority: required
 Description: Configuration Utility for libhooker
