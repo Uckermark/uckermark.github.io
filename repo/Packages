@@ -5,11 +5,11 @@ Maintainer: TIGI Software
 Installed-Size: 34232
 Depends: zip, unzip, gzip, unrar, p7zip
 Conflicts: com.tigisoftware.filza64bit
-Filename: ./debs/filza64b.deb
-Size: 10793008
-MD5sum: f105969c10cf89ae3b8be74db4d6d70c
-SHA1: 3e58920d8d7e220c2280eac289193a89f4ee99d5
-SHA256: 04b4f9c03f8e29028a6fd203c194d832ba72b96c4485bfb509eaaefa3c89451a
+Filename: ./debs/filza64.deb
+Size: 10793092
+MD5sum: 9c086846a6be89bc4784417c45756c0a
+SHA1: 124fb03646b895b4578ea4dc82d3471a987c94d3
+SHA256: b92dfcedf6c886ef20175c5a19262cb072c6f42479f13b9d15b7288745525ce0
 Section: Utilities
 Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 7+
 Author: TIGI Software
@@ -86,19 +86,4 @@ Homepage: http://www.rarlab.com/rar_add.htm
 Description: Unarchiver for .rar files (non-free version)
  Unrar can extract files from .rar archives. If you want to create .rar
  archives, install package rar.
-
-Package: unzip
-Version: 6.0-25
-Architecture: iphoneos-arm64
-Maintainer: Hayden Seay <me@diatr.us>
-Installed-Size: 1464
-Filename: ./debs/unzip64.deb
-Size: 109388
-MD5sum: 990c855ccafa6074d4d9564ef4d3ce9f
-SHA1: f16ac0a6ddc0066e3e8fb152fa698b56e60c3ae8
-SHA256: 74887e4e2c3bf7d650f90ee4917f9a0573a258f9dbe9cda821b43a1e33e12a21
-Section: Archiving
-Priority: important
-Description: de-compesses files in zip format
-Tag: purpose::console, role::hacker
 
