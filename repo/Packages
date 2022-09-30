@@ -6,10 +6,10 @@ Installed-Size: 34232
 Depends: zip, unzip, gzip, unrar, p7zip
 Conflicts: com.tigisoftware.filza64bit
 Filename: ./debs/filza64.deb
-Size: 10789880
-MD5sum: 26dddbda29d7333e71eb3a904cb5b04f
-SHA1: 4cb007355d235a3f38008fcc7a0d0e4298613b17
-SHA256: 5ae12f5d1a66659f6222e26623d43c6b1ce77b744d9d599fdd34a713734a7d3a
+Size: 10789896
+MD5sum: fae6c893a5f4ee8122a195ebf98b9e35
+SHA1: 5369a9a17f23b9a42462e558dcea65a60d81fca2
+SHA256: 37ba27dc79d1ef2992502eb867794e2d677927717de2ef5bb335c395b1003b36
 Section: Utilities
 Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 7+
 Author: TIGI Software

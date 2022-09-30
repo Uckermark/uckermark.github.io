@@ -1,18 +1,18 @@
 #!/bin/bash
 
-if [ -e /Applications/Filza.app ]
+if [ -e /var/jb/Applications/Filza.app ]
 then
-	chown -R root:admin /Applications/Filza.app
+	chown -R root:admin /var/jb/Applications/Filza.app
 fi
 
-chown root /usr/libexec/filza/FilzaHelper
-chown root /Library/LaunchDaemons/com.tigisoftware.filza.helper.plist
-launchctl load -w /Library/LaunchDaemons/com.tigisoftware.filza.helper.plist
+chown root /var/jb/usr/libexec/filza/FilzaHelper
+chown root /var/jb/Library/LaunchDaemons/com.tigisoftware.filza.helper.plist
+launchctl load -w /var/jb/Library/LaunchDaemons/com.tigisoftware.filza.helper.plist
 
-chown root /usr/libexec/filza/Filza
-chmod ug+s /usr/libexec/filza/Filza
-rm -rf /usr/bin/Filza
-ln -s /usr/libexec/filza/Filza /usr/bin/Filza
+chown root /var/jb/usr/libexec/filza/Filza
+chmod ug+s /var/jb/usr/libexec/filza/Filza
+rm -rf /var/jb/usr/bin/Filza
+ln -s var/jb/usr/libexec/filza/Filza /usr/bin/Filza
 
 if [ -d /var/mobile/Library/Filza/.Trash ]
 then
@@ -53,7 +53,7 @@ then
         chown -R mobile:mobile /var/mobile/Library/Preferences/com.tigisoftware.Filza.plist
 fi
 
-if [ -e /usr/bin/Filza ]
+if [ -e /var/jb/usr/bin/Filza ]
 then
-	/usr/bin/Filza mobile uicache &> /dev/null
+	/var/jb/usr/bin/Filza mobile uicache &> /dev/null
 fi
