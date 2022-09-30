@@ -15,6 +15,26 @@ Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 7+
 Author: TIGI Software
 Name: Filza File Manager
 
+Package: org.coolstar.libhooker
+Version: 1.6.9
+Architecture: iphoneos-arm64
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Depends: firmware (>= 11.0), cy+cpu.arm64, org.coolstar.safemode
+Conflicts: com.ex.libsubstitute, org.coolstar.tweakinject, mobilesubstrate, libhooker-strap, com.saurik.substrate.safemode
+Replaces: com.ex.libsubstitute, org.coolstar.tweakinject, mobilesubstrate, libhooker-strap, com.saurik.substrate.safemode
+Provides: com.ex.libsubstitute (= 2.0), org.coolstar.tweakinject (= 1.5.0), mobilesubstrate (= 99.4), libhooker-strap (= 1.1), com.saurik.substrate.safemode (= 2.0)
+Filename: ./debs/libhooker64.deb
+Size: 56148
+MD5sum: dca074a60214c88589ea81f4540f694e
+SHA1: a62dc0a3bf526b90434c6e31cab72ad18f973e40
+SHA256: addf6992a9edad0311774b6cef31bf0ad0d78a23b582f92503e04c22b4e30052
+Section: System
+Description: General Purpose Injection and Hooking library for 64-bit devices
+Author: CoolStar <coolstarorganization@gmail.com>
+Icon: https://repo.theodyssey.dev/depictions/icons/libhooker.png
+Name: libhooker
+Sileodepiction: https://repo.theodyssey.dev/depictions/json/libhooker.json
+
 Package: org.coolstar.libhooker-configurator
 Version: 1.3
 Architecture: iphoneos-arm64
