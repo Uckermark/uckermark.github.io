@@ -74,11 +74,11 @@ Version: 6.1.4
 Architecture: iphoneos-arm64
 Maintainer: Procursus Team <support@procurs.us>
 Installed-Size: 396
-Filename: ./debs/unrar_6.1.4_iphoneos-arm64.deb
-Size: 133716
-MD5sum: 11997a6346f7bcad19082c0e5677c940
-SHA1: 35ccc587dfaa18f40e2bfede5a87d781d89ac1f3
-SHA256: d6f7297e41201c043fc90d83c5f64f12dab2c152f908d616e7fe4d27f12d1026
+Filename: ./debs/unrar64.deb
+Size: 133804
+MD5sum: 37d060ad8d63580ad3e200f54f199f83
+SHA1: e3f2ade3d63b8124a1e7ebf31811a7266cdc7eca
+SHA256: da578c16c19f7f2ce42120502d0e1c2d062ace92578ad85e265cf9c627f2ea16
 Section: Archiving
 Priority: optional
 Multi-Arch: foreign
@@ -92,11 +92,11 @@ Version: 6.0-25
 Architecture: iphoneos-arm64
 Maintainer: Hayden Seay <me@diatr.us>
 Installed-Size: 1464
-Filename: ./debs/unzip_6.0-25_iphoneos-arm64.deb
-Size: 109480
-MD5sum: dfe9411d8e8be5e309198a201020a41c
-SHA1: 9ff15142b629e48ee23098f9958afb93ba4d81aa
-SHA256: 1b5fa815e6ee274f2339c4e33d90e2cf71555b5fccb8a20e5e6d05a23615af4d
+Filename: ./debs/unzip64.deb
+Size: 109388
+MD5sum: 990c855ccafa6074d4d9564ef4d3ce9f
+SHA1: f16ac0a6ddc0066e3e8fb152fa698b56e60c3ae8
+SHA256: 74887e4e2c3bf7d650f90ee4917f9a0573a258f9dbe9cda821b43a1e33e12a21
 Section: Archiving
 Priority: important
 Description: de-compesses files in zip format
