@@ -1,0 +1,22 @@
+#scripts For Filza File Manager
+#argument $1: file name
+#argument $2: file userid:groupid
+##################################
+#resign any mach-o file with ldid
+#warning: This script will resign ipa file or mach-o file with ldid. Make sure you installed ldid
+if [[ $1 =~ \.ipa$ ]]; then
+    unzip "$1" &> /dev/null
+    if [ -d Payload ]; then
+        find . -path './Payload/*' -type f -exec sh -c "ldid -S -M \"{}\";" \;
+        chown -R $2 Payload &> /dev/null
+        zip -r "${1%.ipa}_resigned.ipa" Payload &> /dev/null
+        chown $2 "${1%.ipa}_resigned.ipa"
+        rm -rf Payload
+    else
+        echo "Failed to extract the IPA package"
+    fi
+else
+    cp "$1" "$1_resigned"
+    ldid -S -M "$1_resigned"
+    chown -R $2 "$1_resigned" &> /dev/null
+fi

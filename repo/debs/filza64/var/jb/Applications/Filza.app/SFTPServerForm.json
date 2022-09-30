@@ -1,0 +1,74 @@
+{
+    "controllerName": "GDFormLoginViewController", 
+    "grouped": true, 
+    "sections": [
+        {
+            "elements": [
+                {
+                    "autocapitalizationType": "None", 
+                    "autocorrectionType": "No", 
+                    "bind": "textValue:server", 
+                    "key": "server", 
+                    "keyboardType": "URL", 
+                    "placeholder": "example.com",
+                    "title": "Server", 
+                    "type": "QEntryElement"
+                },
+                {
+                     "autocapitalizationType": "None",
+                     "autocorrectionType": "No",
+                     "bind": "textValue:port",
+                     "key": "port",
+                     "keyboardType": "NumberPad",
+                     "placeholder": "Default",
+                     "title": "Port",
+                     "type": "QEntryElement"
+                },
+                {
+                    "autocapitalizationType": "None", 
+                    "autocorrectionType": "No", 
+                    "bind": "textValue:username", 
+                    "key": "username", 
+                    "keyboardType": "Default", 
+                    "placeholder": "Required",
+                    "title": "Username",
+                    "type": "QEntryElement"
+                },
+                {
+                   "items":[
+                            "Password",
+                            "KeyFile"
+                            ],
+                   "selected":0,
+                   "bind": "selectedValue:logontype",
+                   "key": "logontype",
+                   "title": "Logon type",
+                   "type": "QRadioElement"
+                },
+                {
+                    "bind": "textValue:password",
+                    "autocapitalizationType": "None",
+                    "autocorrectionType": "No",
+                    "keyboardType": "Default",
+                    "placeholder": "Required",
+                    "secureTextEntry": true,
+                    "key": "password",
+                    "title": "Password", 
+                    "type": "QEntryElement"
+                }
+            ],
+             "headerImage": ""
+        },
+        {
+            "elements": [
+                {
+                    "controllerAction": "buttonTapped:", 
+                    "key": "button", 
+                    "title": "Connect", 
+                    "type": "QButtonElement"
+                }
+            ]
+        }
+    ], 
+    "title": "SFTP Login"
+}
