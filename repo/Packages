@@ -1,3 +1,23 @@
+Package: com.linusyang.localeutf8
+Version: 1.0-1
+Architecture: iphoneos-arm64
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 186
+Depends: profile.d
+Filename: ./debs/newterm/utf8.deb
+Size: 5980
+MD5sum: 95b068ed0e49b08534c63109ff35dfa4
+SHA1: 6472c6900d4eb54a801db2120c778bec7f138dec
+SHA256: 65a5ab4a382944fd2d8aa16c0d18c64236acda2cdd46eb6942e759ef9878d22d
+Section: System
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=localeutf8Dp
+Description: UTF-8 locale files for en_US and zh_CN
+Tag: purpose::console, role::hacker
+Author: Linus Yang <laokongzi@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=localeutf8Dp
+Dev: laokongzi
+Name: Locale Profiles in UTF-8
+
 Package: com.tigisoftware.filza
 Version: 3.9.6-4
 Architecture: iphoneos-arm64
@@ -86,4 +106,47 @@ Homepage: http://www.rarlab.com/rar_add.htm
 Description: Unarchiver for .rar files (non-free version)
  Unrar can extract files from .rar archives. If you want to create .rar
  archives, install package rar.
+
+Package: ws.hbang.common
+Version: 1.17
+Architecture: iphoneos-arm64
+Maintainer: HASHBANG Productions <support@hbang.ws>
+Installed-Size: 1852
+Depends: firmware (<< 8.0) | firmware (>= 11.0) | com.rpetrich.rocketbootstrap
+Filename: ./debs/newterm/cephei.deb
+Size: 207976
+MD5sum: 251cda09a38e67d632147083cfb579bf
+SHA1: 064c5cf00e346e02b42c13536ad014659d9b2157
+SHA256: f2212076724dff71a5318a42f68d3308a89ec61336b34fd7c5e73f5fd02d9a08
+Section: Development
+Description: Support library for tweaks
+Tag: role::developer, compatible_min::ios5.0
+Author: HASHBANG Productions <support@hbang.ws>
+Depiction: https://chariz.com/get/cephei
+Dev: hbang
+Icon: https://cdn.chariz.cloud/icon/cephei/icon@3x.png
+Name: Cephei Tweak Support
+Support: https://hashbang.productions/support/
+
+Package: ws.hbang.newterm2
+Version: 2.5
+Architecture: iphoneos-arm64
+Maintainer: HASHBANG Productions <support@hbang.ws>
+Installed-Size: 6664
+Depends: firmware (>= 10.0), firmware (>= 12.2) | org.swift.libswift, ws.hbang.common (>= 1.16), bash, coreutils, ncurses, system-cmds, gettext-localizations | com.linusyang.localeutf8
+Conflicts: ws.hbang.newterm, com.lint.ntarrows
+Replaces: ws.hbang.newterm, com.lint.ntarrows
+Filename: ./debs/newterm/newterm.deb
+Size: 2018800
+MD5sum: 4ce19211cb514445f5b26206efe5b513
+SHA1: 774ec53f2d1a97ef504e23f072d421d040fd7183
+SHA256: 1489f2bbc82e916dc9d1f174d4384f9542d7a65b70a60ac7cc67c65be863b957
+Section: Terminal Support
+Description: A powerful terminal app for iOS
+Tag: compatible_min::ios10.0
+Author: HASHBANG Productions <support@hbang.ws>
+Depiction: https://chariz.com/get/newterm
+Icon: https://chariz.com/cdn/icon/newterm/icon@3x.png
+Name: NewTerm 2
+Support: https://hashbang.productions/support/
 
