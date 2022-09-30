@@ -12,7 +12,7 @@ launchctl load -w /var/jb/Library/LaunchDaemons/com.tigisoftware.filza.helper.pl
 chown root /var/jb/usr/libexec/filza/Filza
 chmod ug+s /var/jb/usr/libexec/filza/Filza
 rm -rf /var/jb/usr/bin/Filza
-ln -s var/jb/usr/libexec/filza/Filza /usr/bin/Filza
+ln -s var/jb/usr/libexec/filza/Filza /var/jb/usr/bin/Filza
 
 if [ -d /var/mobile/Library/Filza/.Trash ]
 then
