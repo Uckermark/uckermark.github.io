@@ -20,16 +20,16 @@ Name: Locale Profiles in UTF-8
 
 Package: com.tigisoftware.filza
 Version: 3.9.6-4
-Architecture: iphoneos-arm64
+Architecture: iphoneos-arm6464646464646464
 Maintainer: TIGI Software
 Installed-Size: 34232
 Depends: zip, unzip, gzip, unrar, p7zip
 Conflicts: com.tigisoftware.filza64bit
 Filename: ./debs/filza64.deb
-Size: 10789904
-MD5sum: 95c1a8b258d40c694352f222001a13f4
-SHA1: eae7980cce23ac131e7157a213c623402d3ec76b
-SHA256: 007c86e089f7ac4a87276586904f6c5e18164cf3f56a224ddc5a238bd6aa8f20
+Size: 10790088
+MD5sum: 8618560aa46d24498b8a636bca2def4c
+SHA1: 97e20cdca266ceefb1455cf1e998ad0447a64a01
+SHA256: 8fcbf325f592688e747bf0441b8b0664818075e5a49716bc0a0876947a66af2f
 Section: Utilities
 Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 7+
 Author: TIGI Software
@@ -114,10 +114,10 @@ Maintainer: HASHBANG Productions <support@hbang.ws>
 Installed-Size: 1852
 Depends: firmware (<< 8.0) | firmware (>= 11.0) | com.rpetrich.rocketbootstrap
 Filename: ./debs/newterm/cephei.deb
-Size: 207976
-MD5sum: 251cda09a38e67d632147083cfb579bf
-SHA1: 064c5cf00e346e02b42c13536ad014659d9b2157
-SHA256: f2212076724dff71a5318a42f68d3308a89ec61336b34fd7c5e73f5fd02d9a08
+Size: 208064
+MD5sum: 8ecba56e34646e88bf5f535b89dac003
+SHA1: 84c2e61a81552733e807b497a62fc5a930d60ec0
+SHA256: 9d9f209c3b5df1baeeac3037ba8904cd099c5f20ca7a85e525f5d53ee7e512ac
 Section: Development
 Description: Support library for tweaks
 Tag: role::developer, compatible_min::ios5.0
@@ -137,10 +137,10 @@ Depends: firmware (>= 10.0), firmware (>= 12.2) | org.swift.libswift, ws.hbang.c
 Conflicts: ws.hbang.newterm, com.lint.ntarrows
 Replaces: ws.hbang.newterm, com.lint.ntarrows
 Filename: ./debs/newterm/newterm.deb
-Size: 2018800
-MD5sum: 4ce19211cb514445f5b26206efe5b513
-SHA1: 774ec53f2d1a97ef504e23f072d421d040fd7183
-SHA256: 1489f2bbc82e916dc9d1f174d4384f9542d7a65b70a60ac7cc67c65be863b957
+Size: 2018696
+MD5sum: e4519ad2dbc2acbdc34a12a99f029455
+SHA1: c00e0c3f96a9759c28034039e04fdaac76d6e3c8
+SHA256: 32793caca1666a51712c9c95d9f05ed88de3dda4d591e87edb9b9abbce0c2a5a
 Section: Terminal Support
 Description: A powerful terminal app for iOS
 Tag: compatible_min::ios10.0
