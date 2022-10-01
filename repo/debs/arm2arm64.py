@@ -9,7 +9,7 @@ dataf = []
 
 def patch_control():
 	print("> patching architecture...")
-        with open(path + 'DEBIAN/control', 'r') as f:
+	with open(path + 'DEBIAN/control', 'r') as f:
 		control = f.read()
 		control = control.replace(' iphoneos-arm', ' iphoneos-arm64')
 	with open(path + 'DEBIAN/control', 'w') as f:
