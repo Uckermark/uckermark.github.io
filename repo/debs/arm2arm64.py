@@ -5,13 +5,12 @@ import sys
 args = sys.argv
 deb = args[1]
 path = args[2]
-dataf = []
 
 def patch_control():
 	print("> patching architecture...")
 	with open(path + 'DEBIAN/control', 'r') as f:
 		control = f.read()
-		control = control.replace(' iphoneos-arm', ' iphoneos-arm64')
+	control = control.replace(' iphoneos-arm', ' iphoneos-arm64')
 	with open(path + 'DEBIAN/control', 'w') as f:
 		f.write(control)
 	print("> patching architecture... done", end='\r')
@@ -36,7 +35,7 @@ def rm_root():
 	print("> moving files to rootless...")
 	for file in get_files():
 		dfile = path + file
-		if not "DEBIAN" is in file:
+		if not "DEBIAN" in file:
 			os.system('mv ' + dfile + ' ' + path + 'var/jb/')
 		os.system('rm -r ' + dfile)
 	print("> moving files to rootless... done", end='\r')
