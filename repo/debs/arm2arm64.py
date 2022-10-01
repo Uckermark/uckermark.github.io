@@ -20,7 +20,6 @@ def unpack_deb():
 	print("> unpacking deb...")
 	os.system('mkdir ' + path)
 	os.system('dpkg-deb -R ' + deb + ' ' + path)
-	os.system('rm ' + path + deb)
 	print("> unpacking deb... done", end='\r')
 
 
@@ -35,7 +34,7 @@ def rm_root():
 	print("> moving files to rootless...")
 	for file in get_files():
 		dfile = path + file
-		if not "DEBIAN" in file:
+		if not "DEBIAN" in file and not "var" is in file:
 			os.system('mv ' + dfile + ' ' + path + 'var/jb/')
 		os.system('rm -r ' + dfile)
 	print("> moving files to rootless... done", end='\r')
