@@ -3,7 +3,6 @@ import sys
 
 
 args = sys.argv
-if len(args) 
 deb = args[1]
 path = args[2]
 dataf = []
