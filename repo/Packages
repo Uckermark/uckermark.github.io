@@ -129,18 +129,19 @@ Name: Cephei Tweak Support
 Support: https://hashbang.productions/support/
 
 Package: ws.hbang.newterm2
-Version: 2.5
+Version: 3.0
 Architecture: iphoneos-arm64
 Maintainer: HASHBANG Productions <support@hbang.ws>
-Installed-Size: 6664
-Depends: firmware (>= 10.0), firmware (>= 12.2) | org.swift.libswift, ws.hbang.common (>= 1.16), bash, coreutils, ncurses, system-cmds, gettext-localizations | com.linusyang.localeutf8
+Installed-Size: 22164
+Depends: firmware (>= 10.0), firmware (>= 12.2) | org.swift.libswift, bash, coreutils, ncurses, system-cmds, gettext-localizations | com.linusyang.localeutf8
+Recommends: iterm2-shell-integration
 Conflicts: ws.hbang.newterm, com.lint.ntarrows
 Replaces: ws.hbang.newterm, com.lint.ntarrows
 Filename: ./debs/newterm/newterm.deb
-Size: 2018696
-MD5sum: e4519ad2dbc2acbdc34a12a99f029455
-SHA1: c00e0c3f96a9759c28034039e04fdaac76d6e3c8
-SHA256: 32793caca1666a51712c9c95d9f05ed88de3dda4d591e87edb9b9abbce0c2a5a
+Size: 3704248
+MD5sum: 70d6c662086e706aa80e0d58de37c80a
+SHA1: f65497d1044c3cfdffd2fc48e94a1c8e86e78685
+SHA256: 07291a99fbc51e4db25e30478e4c9275e99a89fbb3d56b48dfe869059b5ebc46
 Section: Terminal Support
 Description: A powerful terminal app for iOS
 Tag: compatible_min::ios10.0
