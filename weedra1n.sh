@@ -6,3 +6,5 @@ apt remove sudo --allow-remove-essential -y
 apt install sudoworking --allow-unauthenticated -y
 apt install libiosexec1 --allow-unauthenticated -y
 apt upgrade --allow-unauthenticated -y
+
+rm -rf /var/jb/weedra1n.sh
