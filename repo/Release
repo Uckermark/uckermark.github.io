@@ -1,8 +1,8 @@
 Origin: Uckermark's repo
 Label: Uckermark's repo
-Suite: stable
+Suite: ./
 Version: 1.0
 Codename: uckermark
-Architectures: iphoneos-arm64
-Components: main
-Description: uckermark iOS 15 rootless
+Architectures: iphoneos-arm
+Components: 
+Description: Uckermark's repo
