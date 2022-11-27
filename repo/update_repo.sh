@@ -1,7 +1,6 @@
 #bin/bash
-cd repo/debs/
-dpkg-scanpackages debs > ../Packages
-cd ..
+cd repo/
+dpkg-scanpackages ./debs > Packages
 rm Packages.gz
 rm Packages.bz2
 gzip -c9 Packages > Packages.gz
