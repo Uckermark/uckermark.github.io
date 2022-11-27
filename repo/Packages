@@ -1,0 +1,18 @@
+Package: com.uckermark.not-a-bypass
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Uckermark
+Installed-Size: 1
+Pre-Depends: coreutils-bin, dpkg (>=1.17.11)
+Depends: firmware (>=15.0), cy+cpu.arm64, com.ex.substitute (>= 2.3.1)
+Filename: ./debs/not-a-bypass.deb
+Size: 7471762
+MD5sum: 130c8c88bfded58cbc49a2ce9380a22d
+SHA1: fd1ada4aff3a436c117c623ea0a27b8edab0258d
+SHA256: bd23173ce20f6c54bf068c055dfb002b09454b19022db4c95abc5e8af8719172
+Section: Tweaks
+Priority: optional
+Description: Simple jailbreak detection bypass
+Author: Uckermark
+Name: Not a bypass
+
