@@ -118,7 +118,7 @@ xhr.onreadystatechange = function() {
 			pack.Name + ' (' + pack.Version + ')</a><br>' +
 			'<div id="u_' + pack.Package + '" style="display:none;">' +
 			'&nbsp;&nbsp;' + pack.Description + '<br>' +
-			(is_ios ? '&nbsp;&nbsp;<a href="' +  pack.Package + '" target="_blank">Show in Sileo.</a><br>' : '') +
+			(is_ios ? '&nbsp;&nbsp;<a href="' + 'sileo://package/' + pack.Package + '" target="_blank">Show in Sileo.</a><br>' : '') +
 			'&nbsp;&nbsp;<a href="' + pack.Depiction + '" target="_blank">Show more info.</a><br>' +
 			'&nbsp;&nbsp;<a href="' + pack.Filename + '" target="_blank">Download the deb package.</a><br><br>' +
 			'</div>';
