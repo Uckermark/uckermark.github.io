@@ -4,7 +4,7 @@ Architecture: iphoneos-arm64
 Maintainer: BigBoss <bigboss@thebigboss.org>
 Installed-Size: 186
 Depends: profile.d
-Filename: ./debs/newterm/utf8.deb
+Filename: repo/debs/newterm/utf8.deb
 Size: 5980
 MD5sum: 95b068ed0e49b08534c63109ff35dfa4
 SHA1: 6472c6900d4eb54a801db2120c778bec7f138dec
@@ -25,7 +25,7 @@ Maintainer: TIGI Software
 Installed-Size: 34232
 Depends: zip, unzip, gzip, unrar, p7zip
 Conflicts: com.tigisoftware.filza64bit
-Filename: ./debs/filza64.deb
+Filename: repo/debs/filza64.deb
 Size: 10790088
 MD5sum: 8618560aa46d24498b8a636bca2def4c
 SHA1: 97e20cdca266ceefb1455cf1e998ad0447a64a01
@@ -35,6 +35,24 @@ Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 7+
 Author: TIGI Software
 Name: Filza File Manager
 
+Package: com.uckermark.not-a-bypass
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Uckermark
+Installed-Size: 1
+Pre-Depends: coreutils-bin, dpkg (>=1.17.11)
+Depends: firmware (>=15.0), cy+cpu.arm64, com.ex.substitute (>= 2.3.1)
+Filename: repo/debs/Not a bypass.deb
+Size: 7471762
+MD5sum: 130c8c88bfded58cbc49a2ce9380a22d
+SHA1: fd1ada4aff3a436c117c623ea0a27b8edab0258d
+SHA256: bd23173ce20f6c54bf068c055dfb002b09454b19022db4c95abc5e8af8719172
+Section: Tweaks
+Priority: optional
+Description: Simple jailbreak detection bypass
+Author: Uckermark
+Name: Not a bypass
+
 Package: org.coolstar.libhooker
 Version: 1.6.9
 Architecture: iphoneos-arm64
@@ -43,7 +61,7 @@ Depends: firmware (>= 11.0), cy+cpu.arm64, org.coolstar.safemode
 Conflicts: com.ex.libsubstitute, org.coolstar.tweakinject, mobilesubstrate, libhooker-strap, com.saurik.substrate.safemode
 Replaces: com.ex.libsubstitute, org.coolstar.tweakinject, mobilesubstrate, libhooker-strap, com.saurik.substrate.safemode
 Provides: com.ex.libsubstitute (= 2.0), org.coolstar.tweakinject (= 1.5.0), mobilesubstrate (= 99.4), libhooker-strap (= 1.1), com.saurik.substrate.safemode (= 2.0)
-Filename: ./debs/libhooker64.deb
+Filename: repo/debs/libhooker64.deb
 Size: 56148
 MD5sum: dca074a60214c88589ea81f4540f694e
 SHA1: a62dc0a3bf526b90434c6e31cab72ad18f973e40
@@ -60,7 +78,7 @@ Version: 1.3
 Architecture: iphoneos-arm64
 Maintainer: CoolStar <coolstarorganization@gmail.com>
 Depends: org.coolstar.libhooker (>=1.4.0), firmware (>= 12.2) | org.swift.libswift (>= 5.0), firmware (>= 12.0)
-Filename: ./debs/libhooker-configurator64.deb
+Filename: repo/debs/libhooker-configurator64.deb
 Size: 268824
 MD5sum: 55b8932fc23b77cb50ac8c5c7a8e7b1e
 SHA1: f550763bae43595fe9f25d839a37ce20b79cf2e7
@@ -79,7 +97,7 @@ Architecture: iphoneos-arm64
 Maintainer: CoolStar <coolstarorganization@gmail.com>
 Depends: firmware (>= 11.0), cy+cpu.arm64
 Replaces: org.coolstar.libhooker (<<1.2.5)
-Filename: ./debs/org.coolstar.safemode_1.1.4_iphoneos-arm64.deb
+Filename: repo/debs/org.coolstar.safemode_1.1.4_iphoneos-arm64.deb
 Size: 558694
 MD5sum: f18cca1bf82c65936c591bdef4401b65
 SHA1: 8c4bab067f833c1b2ed8e1c7507046c2c6f6bc8d
@@ -94,7 +112,7 @@ Version: 6.1.4
 Architecture: iphoneos-arm64
 Maintainer: Procursus Team <support@procurs.us>
 Installed-Size: 396
-Filename: ./debs/unrar64.deb
+Filename: repo/debs/unrar64.deb
 Size: 133804
 MD5sum: 37d060ad8d63580ad3e200f54f199f83
 SHA1: e3f2ade3d63b8124a1e7ebf31811a7266cdc7eca
@@ -113,7 +131,7 @@ Architecture: iphoneos-arm64
 Maintainer: HASHBANG Productions <support@hbang.ws>
 Installed-Size: 1852
 Depends: firmware (<< 8.0) | firmware (>= 11.0) | com.rpetrich.rocketbootstrap
-Filename: ./debs/newterm/cephei.deb
+Filename: repo/debs/newterm/cephei.deb
 Size: 208064
 MD5sum: 8ecba56e34646e88bf5f535b89dac003
 SHA1: 84c2e61a81552733e807b497a62fc5a930d60ec0
@@ -137,7 +155,7 @@ Depends: firmware (>= 10.0), firmware (>= 12.2) | org.swift.libswift, bash, core
 Recommends: iterm2-shell-integration
 Conflicts: ws.hbang.newterm, com.lint.ntarrows
 Replaces: ws.hbang.newterm, com.lint.ntarrows
-Filename: ./debs/newterm/newterm.deb
+Filename: repo/debs/newterm/newterm.deb
 Size: 3704248
 MD5sum: 70d6c662086e706aa80e0d58de37c80a
 SHA1: f65497d1044c3cfdffd2fc48e94a1c8e86e78685
