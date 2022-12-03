@@ -3,6 +3,7 @@ name: Update repo
 on:
   push:
     branches: [master]
+    paths: ['repo/**']
 
   workflow_dispatch:
 
