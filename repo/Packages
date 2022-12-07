@@ -17,17 +17,17 @@ Author: Uckermark
 Name: Not a bypass
 
 Package: com.uckermark.not-a-bypass-nightly
-Version: 1.0.4
+Version: 1.1
 Architecture: iphoneos-arm
 Maintainer: Uckermark
 Pre-Depends: coreutils-bin, dpkg (>=1.17.11)
 Depends: firmware (>=15.0), cy+cpu.arm64, com.ex.substitute (>= 2.3.1)
 Conflicts: com.uckermark.not-a-bypass
 Filename: ./debs/not-a-bypass-nightly.deb
-Size: 7471176
-MD5sum: 790429996152aa837bf0c114de69707d
-SHA1: 74fb70f0b00d83bc9304649d60336ceffca458e4
-SHA256: 74067e9f0399bc7db8da174eca2d15a010db47d0f7b879c6e41e0505cfb5edea
+Size: 7471356
+MD5sum: 197174635d9fa6b0ac1f1c4b468ff713
+SHA1: 79e74da958058d1a81bb1c0e075dac1f17edd559
+SHA256: 7c118428dc67c121c11778ffe776c1e9f5ab0fbecd9f0be823356e08d18f991c
 Section: Tweaks
 Priority: optional
 Description: Simple jailbreak detection bypass
