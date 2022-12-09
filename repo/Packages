@@ -16,3 +16,21 @@ Description: Simple jailbreak detection bypass
 Author: Uckermark
 Name: Not a bypass nightly
 
+Package: org.coolstar.libhooker-configurator
+Version: 0.1.2
+Architecture: iphoneos-arm
+Maintainer: Uckermark <help@uckermark.tk>
+Depends: firmware (>= 15.0)
+Filename: ./debs/libhooker-configurator-xina.deb
+Size: 281892
+MD5sum: c43df6e069c80a4e1c5ba7ecd788f78a
+SHA1: f2997f468993a97a8500b39587822d49d16b0e09
+SHA256: e67cf1c508851c6f613103451dc309ca85d3c96befb7bad6a577883cbbf8c5da
+Section: Packaging
+Priority: required
+Description: Configuration Utility for libhooker - mod by Uckermark
+Author: CoolStar <coolstarorganization@gmail.com>
+Icon: https://repo.theodyssey.dev/depictions/icons/libhooker.png
+Name: libhooker-configurator
+Sileodepiction: https://repo.theodyssey.dev/depictions/json/libhooker-configurator.json
+
