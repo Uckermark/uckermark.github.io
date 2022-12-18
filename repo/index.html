@@ -208,7 +208,7 @@
                   
                     const html = `
                       <a href="javascript:var e = document.getElementById('${packageId}'); e.style.display = e.style.display= (e.style.display == 'block' ? 'none' : 'block');">${name}</a><br>
-                      <div id="${packageId}" class=package>
+                      <div id="${packageId}" style="display:none;">
                         &nbsp;&nbsp;${description}<br>
                         ${sileoLink}
                         &nbsp;&nbsp;<a href="${depictionLink}">Show more info.</a><br>
