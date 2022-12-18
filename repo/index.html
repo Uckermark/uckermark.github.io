@@ -186,8 +186,8 @@
                       xhr = new ActiveXObject('Microsoft.XMLHTTP');
                   }
                   
-                  xhr.onreadystatechange = function() {
-                  	if (!(xhr.readyState == 4)) return;
+                  xhr.onload = function() {
+                  	if (!(xhr.status === 200)) return;
                   
                   	var depictionArray = parsePackages(xhr.responseText);
                   	if (!depictionArray) return;
