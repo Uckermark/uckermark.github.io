@@ -22,56 +22,63 @@ function Apt_package() {
 	this.Depiction;
 } //Constructor for Apt_package object.
 
-function parsePackage(string) { //TODO: Make sure no key is undefined
-	var a_package = new Apt_package();
-	var lines = string.split('\n');
+function parsePackage(string) {
+  if (!string) {
+    return undefined;
+  }
 
-	var c;
-	for (c = 0; c < lines.length; ++c) {
-		var line = lines[c];
-		if (line.search(':') == -1) continue;
+  var a_package = new Apt_package();
+  a_package.Depiction = 'undefined.html'; // Set default value for Depiction
 
-		var components = line.split(':'); //Quick and dirty.
-		var key = components.shift();
-		var value = components.join(':').trim();
+  var lines = string.split('\n');
 
-		switch (key) {
-			case 'Package':
-				a_package.Package = value;
-				break;
-			case 'Version':
-				a_package.Version = value;
-				break;
-			case 'Section':
-				a_package.Section = value;
-				break;
-			case 'Installed-Size':
-				a_package.Installed_Size = value;
-				break;
-			case 'Description':
-				a_package.Description = value;
-				break;
-			case 'Name':
-				a_package.Name = value;
-				break;
-			case 'Author':
-				a_package.Author = value;
-				break;
-			case 'Filename':
-				a_package.Filename = value;
-				break;
-			case 'Depiction':
-				a_package.Depiction = value;
-				break;
-			default:
-				break; //Unknown key.
-		}
-	}
+  for (var c = 0; c < lines.length; ++c) {
+    var line = lines[c];
+    if (!line || line.search(':') === -1) continue;
 
-	if (a_package.Package == undefined) return undefined;
+    var components = line.split(':');
+    if (components.length < 2) continue;
 
-	return a_package;
+    var key = components.shift().trim();
+    var value = components.join(':').trim();
+
+    switch (key) {
+      case 'Package':
+        a_package.Package = value;
+        break;
+      case 'Version':
+        a_package.Version = value;
+        break;
+      case 'Section':
+        a_package.Section = value;
+        break;
+      case 'Installed-Size':
+        a_package.Installed_Size = value;
+        break;
+      case 'Description':
+        a_package.Description = value;
+        break;
+      case 'Name':
+        a_package.Name = value;
+        break;
+      case 'Author':
+        a_package.Author = value;
+        break;
+      case 'Filename':
+        a_package.Filename = value;
+        break;
+      default:
+        break; // Unknown key.
+    }
+  }
+
+  if (!a_package.Package) {
+    return undefined;
+  }
+
+  return a_package;
 }
+
 
 function parsePackages(parse) {
 	var depictions = {};
