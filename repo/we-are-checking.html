@@ -88,6 +88,21 @@
          </div>
       </div>
    </body>
+	
+	<script type='text/javascript'>
+                  //The functionality for the package list.
+                  function Apt_package() {
+                  	this.Package;
+                  	this.Version;
+                  	this.Section;
+                  	this.Installed_Size;
+                  	this.Description;
+                  	this.Name;
+                  	this.Author;
+                  	this.Filename;
+                  	this.Depiction;
+                  } //Constructor for Apt_package object.
+		
 function parsePackage(string) {
    if (!string) {
      return undefined;
