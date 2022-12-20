@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-  <div id="title">Uckermark's Cydia repo</div>
+<div id="title">Uckermark's Cydia repo</div>
 <div id="content"><br><br>
 <a href="sileo://source/https://www.uckermark.tk/repo/"><b>Add repo to Sileo</b></a><span id="ocy"></span><br><br>
 <hr>
@@ -24,6 +24,7 @@ function Apt_package() {
 } //Constructor for Apt_package object.
 function parsePackage(string) { //TODO: Make sure no key is undefined
 	var a_package = new Apt_package();
+	a_package.Depiction = 'undefined.html';
 	var lines = string.split('\n');
 	var c;
 	for (c = 0; c < lines.length; ++c) {
@@ -96,19 +97,19 @@ xhr.onreadystatechange = function() {
 	for (key in depictionArray) {
 		var pack = depictionArray[key];
 		//The following code is very messy. You have been warned.
+		console.log(pack.Package)
 		document.getElementById('samples').innerHTML = document.getElementById('samples').innerHTML +
 			'<a href="javascript:var e = document.getElementById(\'u_' + pack.Package + '\'); e.style.display = e.style.display= (e.style.display == \'block\' ? \'none\' : \'block\');">' +
 			pack.Name + ' (' + pack.Version + ')</a><br>' +
 			'<div id="u_' + pack.Package + '" style="display:none;">' +
 			'&nbsp;&nbsp;' + pack.Description + '<br>' +
-			(is_ios ? '&nbsp;&nbsp;<a href="' +  pack.Package + '" target="_blank">Show in Sileo.</a><br>' : '') +
 			(is_ios ? '&nbsp;&nbsp;<a href="' + 'sileo://package/' + pack.Package + '" target="_blank">Show in Sileo.</a><br>' : '') +
-			'&nbsp;&nbsp;<a href="' + pack.Depiction + '" target="_blank">Show more info.</a><br>' +
+			'&nbsp;&nbsp;<a href="' + pack.Depiction + '">Show more info.</a><br>' +
 			'&nbsp;&nbsp;<a href="' + pack.Filename + '" target="_blank">Download the deb package.</a><br><br>' +
 			'</div>';
 	}
 };
-xhr.open("GET","Packages");
+xhr.open("GET","https://www.uckermark.tk/repo/Packages");
 xhr.send();
 </script>
 </div>
