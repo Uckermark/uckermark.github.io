@@ -86,6 +86,7 @@
         }
         // Split the line on the first colon to get the key and value
         const [key, value] = line.split(':', 1);
+        console.log(key + " : " + value)
         // Remove leading and trailing whitespace from the key and value
         const trimmedKey = key.trim();
         const trimmedValue = value.trim();
