@@ -16,6 +16,10 @@ button {
 button#add-to-cydia {
 	background-color: #8c583f;
 	color: white;
+	border: none;
+	padding: 10px 20px;
+	font-size: 16px;
+	cursor: pointer;
 }
 
 button#add-to-cydia:hover {
@@ -25,6 +29,10 @@ button#add-to-cydia:hover {
 button#add-to-sileo {
 	background-color: #24cdc2;
 	color: white;
+	border: none;
+	padding: 10px 20px;
+	font-size: 16px;
+	cursor: pointer;
 }
 
 button#add-to-sileo:hover {
