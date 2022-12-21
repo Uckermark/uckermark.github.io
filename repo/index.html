@@ -99,14 +99,18 @@ xhr.onreadystatechange = function() {
 		//The following code is very messy. You have been warned.
 		console.log(pack.Package)
 		document.getElementById('samples').innerHTML = document.getElementById('samples').innerHTML +
-			'<a href="javascript:var e = document.getElementById(\'u_' + pack.Package + '\'); e.style.display = e.style.display= (e.style.display == \'block\' ? \'none\' : \'block\');">' +
-			pack.Name + ' (' + pack.Version + ')</a><br>' +
+			'<a id="' + pack.Package + '-link" href="#">' + pack.Name + ' (' + pack.Version + ')</a><br>' +
 			'<div id="u_' + pack.Package + '" style="display:none;">' +
 			'&nbsp;&nbsp;' + pack.Description + '<br>' +
 			(is_ios ? '&nbsp;&nbsp;<a href="' + 'sileo://package/' + pack.Package + '" target="_blank">Show in Sileo.</a><br>' : '') +
 			'&nbsp;&nbsp;<a href="' + pack.Depiction + '">Show more info.</a><br>' +
 			'&nbsp;&nbsp;<a href="' + pack.Filename + '" target="_blank">Download the deb package.</a><br><br>' +
 			'</div>';
+
+document.getElementById(pack.Package + '-link').addEventListener('click', function() {
+  var e = document.getElementById('u_' + pack.Package);
+  e.style.display = e.style.display = (e.style.display == 'block' ? 'none' : 'block');
+});
 	}
 };
 xhr.open("GET","https://www.uckermark.tk/repo/Packages");
