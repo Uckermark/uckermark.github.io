@@ -38,3 +38,18 @@ button#add-to-sileo {
 button#add-to-sileo:hover {
 	background-color: #0ea79e;
 }
+
+button#add-to-zebra {
+  background-color: #000000; /* Zebra's stripes are black */
+  color: #ffffff; /* Zebra's body is white */
+  border: none; /* Remove the border around the button */
+  padding: 10px 20px; /* Add some padding to the button */
+  font-size: 16px; /* Increase the font size for better readability */
+  cursor: pointer; /* Add a cursor to indicate the button is clickable */
+  transition: background-color 0.3s; /* Add a transition for the hover effect */
+}
+
+button#add-to-zebra:hover {
+  background-color: #ffffff; /* When hovered over, switch the background color to white */
+  color: #000000; /* Change the text color to black */
+}
