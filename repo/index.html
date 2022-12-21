@@ -2,14 +2,16 @@
 <html>
 <div id="title">Uckermark's Cydia repo</div>
 <div id="content"><br><br>
-<a href="sileo://source/https://www.uckermark.tk/repo/"><b>Add repo to Sileo</b></a><span id="ocy"></span><br><br>
+<a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://www.uckermark.tk/repo/"><b>Add repo to Cydia</b></a>
+<a href="sileo://source/https://www.uckermark.tk/repo/"><b>Add repo to Sileo</b></a>
+<span id="ocy"></span><br><br>
 <hr>
 <h4>These are the packages on this repo</h4>
 <div id="samples" style="width:100%"></div>
 <script type="text/javascript">
 //Some fast iOS check.
 is_ios = (navigator.userAgent.match(/iPad/i) != null) || (navigator.userAgent.match(/iPhone/i) != null) || (navigator.userAgent.match(/iPod/i) != null);
-if (!is_ios) document.getElementById('ocy').innerHTML = ' Most probably, you will not be able to open Cydia.';
+if (!is_ios) document.getElementById('ocy').innerHTML = 'Open this site on your iOS device to add the repository';
 //The functionality for the package list.
 function Apt_package() {
 	this.Package;
