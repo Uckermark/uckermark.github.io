@@ -13,20 +13,20 @@ button {
   font-size: 16px;
 }
 
-#add-to-cydia, #add-to-sileo {
-	font-size: 18px;
-	padding: 10px 20px;
-	border-radius: 5px;
+button#add-to-cydia {
+	background-color: #8c583f;
 	color: white;
-	background-color: #3366CC;
-	border: none;
-	cursor: pointer;
 }
 
-#add-to-cydia:hover, #add-to-sileo:hover {
-	background-color: #003399;
+button#add-to-cydia:hover {
+	background-color: #633b2c;
 }
 
-#add-to-cydia:active, #add-to-sileo:active {
-	background-color: #003366;
+button#add-to-sileo {
+	background-color: #24cdc2;
+	color: white;
+}
+
+button#add-to-sileo:hover {
+	background-color: #0ea79e;
 }
