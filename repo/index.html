@@ -1,9 +1,13 @@
 <!DOCTYPE html>
 <html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
 <div id="title">Uckermark's Cydia repo</div>
 <div id="content"><br><br>
-<a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://www.uckermark.tk/repo/"><b>Add repo to Cydia</b></a>
-<a href="sileo://source/https://www.uckermark.tk/repo/"><b>Add repo to Sileo</b></a>
+<button id="add-to-cydia" href="cydia://url/https://cydia.saurik.com/api/share#?source=https://www.uckermark.tk/repo/">Add to Cydia</button>
+<button id="add-to-sileo" href="sileo://source/https://www.uckermark.tk/repo/">Add to Sileo</button>
 <span id="ocy"></span><br><br>
 <hr>
 <h4>These are the packages on this repo</h4>
@@ -122,4 +126,5 @@ xhr.send();
 <noscript>
 As this website uses JavaScript to generate a semi-dynamically created page, you need to activate JavaScript!
 </noscript>
+	</body>
 </html>
