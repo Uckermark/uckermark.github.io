@@ -53,3 +53,17 @@ button#add-to-zebra:hover {
   background-color: #ffffff; /* When hovered over, switch the background color to white */
   color: #000000; /* Change the text color to black */
 }
+
+#add-to-installer {
+  background-color: #147eea;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#add-to-installer:hover {
+  background-color: #2c93ef;
+}
