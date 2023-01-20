@@ -1,5 +1,5 @@
 # Repo
-https://www.uckermark.tk/repo
+https://uckermark.tk/repo
 
 # Tweaks
 - Not a bypass
